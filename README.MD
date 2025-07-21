@@ -1,16 +1,13 @@
-# Backend
-
-## Prerequisites
-
-- python 
-- [Frontend](https://github.com/Vasya-556/TestTaskFrontend)
+# Cats
   
 ## Setup
+
+### Backend
 
 1. Create a virtual environment and activate it:
 
 ```bash
-cd TestTaskBackend
+cd Cats
 python -m venv venv
 source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate     # Windows
@@ -28,6 +25,24 @@ python manage.py migrate
 ```bash
 python manage.py runserver
 ```
+
+### Frontend
+1. Go to frontend folder
+```bash
+cd frontend
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server
+```bash
+npm run dev
+```
+
+4. [Open broswer](http://localhost:3000) 
 
 ## Postman 
 
