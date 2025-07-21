@@ -1,5 +1,7 @@
 # Cats
-  
+
+![](image.png)
+
 ## Setup
 
 ### Backend
